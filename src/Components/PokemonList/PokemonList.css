@@ -1,0 +1,26 @@
+.pokemon-list-outer{
+    display: flex;
+    flex-direction: column;
+}
+
+.Pokemon-list-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn button{
+    padding: 10px;
+    margin-right: 10px;
+    font-size: large;
+}
